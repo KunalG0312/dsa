@@ -10,25 +10,28 @@ int main(){
     // int b[4] = {2,4,6,8};
 
     int alen,blen;
+    
+
+
+    
     cout<<"Enter size of first array : ";
     cin>>alen;
-    cout<<"Enter size of second array : ";
-    cin>>blen;
-
     int a[alen];
-    int b[blen];
-
-
-
+    
     cout<<"Enter elements of the first array : ";
     for(int i = 0; i<alen; i++){
         cin>>a[i];
     }
 
+
+    cout<<"Enter size of second array : ";
+    cin>>blen;
+    int b[blen];
     cout<<"Enter elements of the second array : ";
     for(int i = 0; i<blen; i++){
         cin>>b[i];
     }
+
 
     for(int i = 0; i<blen; i++){
         for(int j = 0; j<alen; j++){
